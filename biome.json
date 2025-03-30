@@ -22,9 +22,6 @@
       "recommended": true,
       "correctness": {
         "noUnusedImports": "warn"
-      },
-      "nursery": {
-        "useSortedClasses": "warn"
       }
     }
   },
