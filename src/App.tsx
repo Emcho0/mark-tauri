@@ -1,15 +1,12 @@
 import { Content, RootLayout, Sidebar } from "./components";
-
 function App() {
   return (
     <RootLayout>
-      <Sidebar
-        className="p-2 border-4 bg-[#15171D] 
-      border-[#343742]"
-      >
+      <Sidebar className="rounded-md border-[#BDBFCB] border-[2px] bg-[#15171D] p-2">
         Placeholder za note
       </Sidebar>
-      <Content className="border-4 border-[#1D202B] bg-[#0F101B]">
+
+      <Content className="border-white border-l-[2.5px] bg-[#0F101B]">
         Sadrzaj
       </Content>
     </RootLayout>
