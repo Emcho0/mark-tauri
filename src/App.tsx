@@ -5,7 +5,6 @@ import {
   RootLayout,
   Sidebar,
 } from "./components";
-
 const App = () => {
   return (
     <>
@@ -21,5 +20,4 @@ const App = () => {
     </>
   );
 };
-
 export default App;
